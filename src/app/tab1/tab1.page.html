@@ -11,5 +11,18 @@
     </ion-toolbar>
   </ion-header>
 
+  <ion-label
+    >Scan value does not show until stoped (video not showing either)
+  </ion-label>
+  <!-- *ngIf="!scanning" -->
   <ion-button (click)="startScan()">scan</ion-button>
+  <!-- stop not working properly -->
+  <!-- <ion-button (click)="stopScan()" *ngIf="scanning">stop</ion-button> -->
+  <ion-label>{{result.content}}</ion-label>
+  <video
+    width="400px"
+    height="200px"
+    playsinline="true"
+    autoplay="true"
+  ></video>
 </ion-content>
