@@ -1,4 +1,4 @@
-# barcode-scanner-test for iOS with capacitor-community/barcode-scanner (ml-kit version)
+# barcode scanner for iOS (just for now) with @capacitor-community/barcode-scanner (ml-kit version)
 
 ## installation
 `npm i`
