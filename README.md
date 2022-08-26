@@ -1,13 +1,13 @@
-## barcode-scanner-test for iOS with capacitor-community/barcode-scanner (ml-kit version)
+# barcode-scanner-test for iOS with capacitor-community/barcode-scanner (ml-kit version)
 
-#installation
+## installation
 npm i 
 npm run build / ionic build
 npx cap sync (first time, then npx cap copy ios)
 
 make sure info.plist has camera permissions
 
-#running
+## running
 npx cap run ios / npx cap open ios  and run from xcode
 
 #notes
