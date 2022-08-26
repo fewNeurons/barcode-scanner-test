@@ -55,7 +55,7 @@ export class Tab1Page implements OnInit {
       console.log(this.result);
     };
     BarcodeScanner.start(options, callback);
-    this.scanning = true;
+    // this.scanning = true;
   }
 
   async stopScan() {
