@@ -10,5 +10,5 @@ make sure info.plist has camera permissions
 ## running
 npx cap run ios / npx cap open ios  and run from xcode
 
-#notes
+# notes
 video stream is not shown and button must clicked again in order for the code to be shown, otherwise, you can see the code logged in console
